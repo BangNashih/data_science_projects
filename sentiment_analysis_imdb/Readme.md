@@ -1,6 +1,6 @@
 # Sentiment Analysis IMDb Reviews
 
-The fil store wants to improve their services. They want to automatically detecting negative film reviews.
+The film store wants to improve their services. They want to automatically detecting negative film reviews.
 
 **Task** - Predict the probabilities of the reviews. The model, aims to achieve a minimum F1 score of 0.85.
 
