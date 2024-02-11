@@ -1,7 +1,7 @@
-# Optimization of production costs
+# Optimization of Production Cost: Steel Temperature Prediction Model
 In order to optimize production costs, the smelter decided to reduce electricity consumption during the steel processing stage.
 
-**The objective** is to build a predictive model for the final steel melting temperature.
+**The Objective** is to build a predictive model for the final steel melting temperature.
 
 **Stack:** `Pipeline` `Optuna` `pandas` `Catboost` `XGBoost` `Scikit-Learn`
 
@@ -24,3 +24,7 @@ Finally, the most effective model for predicting the final temperature of a stee
 - `'random_seed': None`
 
 This model demonstrated a Mean Absolute Error (MAE) of 5.4 in training data and 5.69 degrees on the test sample (indicating a reliable performance).
+
+
+**Attachment: History Plot of Catboost Model Study Using Optuna**
+![Catboost Study History Plot](https://github.com/nashihabdul/data_science_projects/blob/main/steel_temperature_prediction/history%20plot%20catboost.png)
